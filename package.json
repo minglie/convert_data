@@ -1,0 +1,25 @@
+{
+  "name": "convert_data",
+  "version": "1.0.0",
+  "description": "用于做各种数据转换比如mysql转sqlite,\r  文本解析入库,文本格式转换",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minglie/convert_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minglie/convert_data/issues"
+  },
+  "homepage": "https://github.com/minglie/convert_data#readme",
+  "dependencies": {
+    "ming_node": "0.0.27",
+    "mysql": "^2.16.0",
+    "sqlite3": "^4.0.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "myDbconfig":{
+    "host"     : "127.0.0.1",
+    "user"     : "root",
+    "password" : "123456",
+    "port"     : "3306",
+    "database" : "test"
+  },
+  "tableNames":[
+
+    "aos_sys_user",
+    "aos_sys_account"
+
+  ],
+  "entityClassNames":[
+
+    "User",
+    "Account"
+  ],
+  "entityDescs":[
+
+    "用户",
+    "账户"
+  ]
+}
