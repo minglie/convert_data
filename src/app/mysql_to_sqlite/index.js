@@ -1,0 +1,1 @@
+/** * 把mysql的数据导入sqlite里 */M=require("ming_node");mysql=require("../../modules/ming_mysql");sqlite=require("../../modules/ming_sqlite");sqlite.display_sql_enable=0;+async function(){    L=await mysql.doSql("select * from student")    for(var i=0;i<L.length;i++){        sqlite.doSql(`insert into student values(${L[i].id},'${L[i].name}',${L[i].age})`)    }}();

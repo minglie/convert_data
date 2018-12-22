@@ -1,0 +1,1 @@
+M=require("ming_node");M.readLine("C:\\Users\\Administrator\\Desktop\\input.txt", function (d) {    //d=d.split(" ")    //console.log(d[0],'aaaaaaaaaaaaaaaaa')    date=new Date("2013-02-15 21:00:00");    var time = date.getTime();    var date = new Date( time)    console.log(date)})
